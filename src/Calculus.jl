@@ -4,11 +4,11 @@ export interest, rate
 
 interest(amount, rate)
 
-export function interest(amount, rate)
+function interest(amount, rate)
     return amount * (1 + rate)
 end
 
-export function rate(amount, interest)
+function rate(amount, interest)
     return interest / amount
 end
 
