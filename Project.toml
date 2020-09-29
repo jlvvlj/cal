@@ -1,0 +1,13 @@
+name = "Calculus"
+uuid = "89902b32-e3f4-47b1-b441-255129a8d5b9"
+authors = ["jlvvlj <jimmylevagueresse@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
